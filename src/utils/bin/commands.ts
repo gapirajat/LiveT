@@ -150,8 +150,11 @@ Hey! it's rajat!
 ██║  ██║██║  ██║╚█████╔╝██║  ██║   ██║   ███████║    ╚███╔███╔╝███████╗██████╔╝    ╚██████╗███████╗██║    ██╗
 ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝     ╚══╝╚══╝ ╚══════╝╚═════╝      ╚═════╝╚══════╝╚═╝    ╚═╝
                                                                                                                 
-Rajat has a keen interest in NLP. He has worked in cross domain projects across Web, Android and Linux. 
-He also has some niche skills like web scraping and Google App Scripts. He's a excellent debugger and a Linux Wizard.                                     
+Has a keen interest in NLP ✓
+Linux Hobbyist ✓
+Has worked in cross domain projects across Web, Android and Linux ✓ 
+Also has niche skills like web scraping and Google App Scripts
+Excellent debugger and a Linux Wizard ✓                                     
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
