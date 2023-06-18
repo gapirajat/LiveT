@@ -1,17 +1,17 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
   "title": "rajats's website",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "name": "Rajat Shinde",
+  "ascii": "rajat",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "https://github.com/gapirajat",
+    "linkedin": "https://www.linkedin.com/in/rajatsh09/"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
+  "email": "rajatshinde01@gmail.com",
+  "ps1_hostname": "rajat",
   "ps1_username": "visitor",
   "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "resume_url": "https://drive.google.com/file/d/1AfFFJDDl8RDxmm-98M7640MkDRHO6fG2/view?usp=drive_link",
   "colors": {
     "light": {
       "background": "#FBF1C9",
