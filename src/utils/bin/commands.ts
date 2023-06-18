@@ -141,17 +141,21 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-█████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
- ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
+  Hey! its rajat!
+  
+██████╗  █████╗      ██╗ █████╗ ████████╗███████╗    ██╗    ██╗███████╗██████╗      ██████╗██╗     ██╗    ██╗
+██╔══██╗██╔══██╗     ██║██╔══██╗╚══██╔══╝██╔════╝    ██║    ██║██╔════╝██╔══██╗    ██╔════╝██║     ██║    ██║
+██████╔╝███████║     ██║███████║   ██║   ███████╗    ██║ █╗ ██║█████╗  ██████╔╝    ██║     ██║     ██║    ██║
+██╔══██╗██╔══██║██   ██║██╔══██║   ██║   ╚════██║    ██║███╗██║██╔══╝  ██╔══██╗    ██║     ██║     ██║    ╚═╝
+██║  ██║██║  ██║╚█████╔╝██║  ██║   ██║   ███████║    ╚███╔███╔╝███████╗██████╔╝    ╚██████╗███████╗██║    ██╗
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝     ╚══╝╚══╝ ╚══════╝╚═════╝      ╚═════╝╚══════╝╚═╝    ╚═╝
+                                                                                                                
+Rajat has a keen interest in NLP. He has worked in cross domain projects across Web, Android and Linux. He also has niche skills like web scraping and Google App Scripts. Excellent debugger and a Linux Wizard                                     
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
-Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
+Type 'resume' to get resume.
+
 `;
 };
+//Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
