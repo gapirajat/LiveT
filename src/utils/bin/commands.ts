@@ -141,7 +141,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-  Hey! its rajat!
+Hey! it's rajat!
   
 ██████╗  █████╗      ██╗ █████╗ ████████╗███████╗    ██╗    ██╗███████╗██████╗      ██████╗██╗     ██╗    ██╗
 ██╔══██╗██╔══██╗     ██║██╔══██╗╚══██╔══╝██╔════╝    ██║    ██║██╔════╝██╔══██╗    ██╔════╝██║     ██║    ██║
@@ -150,7 +150,8 @@ export const banner = (args?: string[]): string => {
 ██║  ██║██║  ██║╚█████╔╝██║  ██║   ██║   ███████║    ╚███╔███╔╝███████╗██████╔╝    ╚██████╗███████╗██║    ██╗
 ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝     ╚══╝╚══╝ ╚══════╝╚═════╝      ╚═════╝╚══════╝╚═╝    ╚═╝
                                                                                                                 
-Rajat has a keen interest in NLP. He has worked in cross domain projects across Web, Android and Linux. He also has niche skills like web scraping and Google App Scripts. Excellent debugger and a Linux Wizard                                     
+Rajat has a keen interest in NLP. He has worked in cross domain projects across Web, Android and Linux. 
+He also has some niche skills like web scraping and Google App Scripts. He's a excellent debugger and a Linux Wizard.                                     
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
