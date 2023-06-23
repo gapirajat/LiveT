@@ -13,6 +13,7 @@ const App = ({ Component, pageProps }) => {
   return (
     <>   
       <Head>
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-DTQ0H7HF7T"></script>
         <meta
           name="viewport"
           content="initial-scale=1.0, width=device-width"
