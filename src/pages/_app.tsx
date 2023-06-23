@@ -13,8 +13,10 @@ const App = ({ Component, pageProps }) => {
     inputRef.current.focus();
   };
   useEffect(() => {
-    (window as any).dataLayer = (window as any).dataLayer || [];
-    function gtag(...args) {
+    if (!(window as any).dataLayer) {
+      (window as any).dataLayer = [];
+    }
+    function gtag(...args: any[]) {
       (window as any).dataLayer.push(...args);
     }
     gtag('js', new Date());
