@@ -24,21 +24,12 @@ const App = ({ Component, pageProps }) => {
       (window as any).dataLayer.push(...args);
     }
     gtag('js', new Date());
-    gtag('config', 'UA-XXXXXXXXX-X');
+    gtag('config', 'G-DTQ0H7HF7T');
   }, []);
 
   return (
     <>   
       <Head>
- 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DTQ0H7HF7T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-DTQ0H7HF7T');
-</script>
 
         <meta
           name="viewport"
