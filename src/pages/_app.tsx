@@ -13,8 +13,7 @@ const App = ({ Component, pageProps }) => {
   return (
     <>   
       <Head>
-       
-<!-- Google tag (gtag.js) -->
+ 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DTQ0H7HF7T"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
