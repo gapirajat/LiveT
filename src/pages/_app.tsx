@@ -13,13 +13,10 @@ const App = ({ Component, pageProps }) => {
     inputRef.current.focus();
   };
   useEffect(() => {
-    // Declare dataLayer
     (window as any).dataLayer = (window as any).dataLayer || [];
-    
-    function gtag() {
-      (window as any).dataLayer.push(arguments);
+    function gtag(...args) {
+      (window as any).dataLayer.push(...args);
     }
-
     gtag('js', new Date());
     gtag('config', 'UA-XXXXXXXXX-X');
   }, []);
