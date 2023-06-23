@@ -4,11 +4,23 @@ import Head from 'next/head';
  
 
 const App = ({ Component, pageProps }) => {
+ 
   const inputRef = React.useRef<HTMLInputElement>(null);
 
   const onClickAnywhere = () => {
     inputRef.current.focus();
   };
+  useEffect(() => {
+    // Declare dataLayer
+    (window as any).dataLayer = (window as any).dataLayer || [];
+    
+    function gtag() {
+      (window as any).dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXXXXXX-X');
+  }, []);
 
   return (
     <>   
