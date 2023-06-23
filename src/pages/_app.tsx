@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/global.css';
 import Head from 'next/head';
+import { useEffect } from 'react';
+
  
 
 const App = ({ Component, pageProps }) => {
