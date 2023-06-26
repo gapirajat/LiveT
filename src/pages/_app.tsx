@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/global.css';
 import Head from 'next/head';
 import { useEffect } from 'react';
-import * as gtag from '../lib/gtag'
 
 declare global {
   interface Window {
