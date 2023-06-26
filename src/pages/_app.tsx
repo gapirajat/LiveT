@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/global.css';
 import Head from 'next/head';
 import { useEffect } from 'react';
-import TagManager from 'react-gtm-module';
+//import TagManager from 'react-gtm-module';
 
 
 // const App = ({ Component, pageProps }) => {
