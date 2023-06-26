@@ -39,11 +39,13 @@ import TagManager from 'react-gtm-module';
 
 // export default App;
 
-function MyApp({ Component, pageProps }) {
- 
   export const metadata = {
   title: "Your Page Title",
 };
+
+function MyApp({ Component, pageProps }) {
+ 
+
   const inputRef = React.useRef<HTMLInputElement>(null);
   const onClickAnywhere = () => {
     inputRef.current.focus();
