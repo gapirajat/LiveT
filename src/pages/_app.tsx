@@ -5,20 +5,6 @@ import { useEffect } from 'react';
 import TagManager from 'react-gtm-module';
 import Head from 'next/head'
 
-export default function IndexPage() {
-    return (
-        <>
-            <Head>
-                <title>Index page title</title>
-            </Head>
-            <div>
-                <p>Index page content</p>
-            </div>
-        </>
-    )
-}
-
-
 // const App = ({ Component, pageProps }) => {
  
 //   const inputRef = React.useRef<HTMLInputElement>(null);
@@ -77,6 +63,7 @@ function MyApp({ Component, pageProps }) {
           key="viewport"
           maximum-scale="1"
         />
+          <title>Index page title</title>
       </Head>
 
       <div
