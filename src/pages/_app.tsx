@@ -46,7 +46,7 @@ function MyApp({ Component, pageProps }) {
     inputRef.current.focus();
   };
   useEffect(() => {
-      TagManager.initialize({ gtmId: 'G-FEJ1TFPMGJ' });
+      TagManager.initialize({ gtmId: 'G-FLKP5KB7Y5' });
   }, []);
   return (
     <>   
