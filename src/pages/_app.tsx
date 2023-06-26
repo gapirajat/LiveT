@@ -45,9 +45,9 @@ function MyApp({ Component, pageProps }) {
   const onClickAnywhere = () => {
     inputRef.current.focus();
   };
-  useEffect(() => {
-      TagManager.initialize({ gtmId: 'G-FEJ1TFPMGJ' });
-  }, []);
+  // useEffect(() => {
+  //     TagManager.initialize({ gtmId: 'G-FEJ1TFPMGJ' });
+  // }, []);
   return (
     <>   
       <Head>
