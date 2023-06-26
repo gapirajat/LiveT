@@ -17,29 +17,11 @@ const App = ({ Component, pageProps }) => {
   const onClickAnywhere = () => {
     inputRef.current.focus();
   };
-  useEffect(() => {
-    if (!(window as any).dataLayer) {
-      (window as any).dataLayer = [];
-    }
-    function gtag(...args: any[]) {
-      (window as any).dataLayer.push(...args);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-DTQ0H7HF7T');
-  }, []);
 
   return (
     <>   
       <Head>
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DTQ0H7HF7T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-DTQ0H7HF7T');
-</script>
         <meta
           name="viewport"
           content="initial-scale=1.0, width=device-width"
