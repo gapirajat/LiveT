@@ -141,15 +141,15 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-  Hello there! I'm Rajat and...
-    
-  <span class='banner'>This is a Terminal!</span>                                                                
-                                                                                                                  
-  I love Linux and so should you XD,
-  Why?
-  Cause whatever you want is just a command away...!
-  TYPE HELP OR TYPE RESUME TO VIEW MY <a class="text-light-green dark:text-dark-green underline" href="${config.repo}" target="_blank">resume</a>.
-  See my <a class="text-light-yellow dark:text-dark-blue underline" href="/projects" target="_blank">PROJECTS</a>.
+Hello there! I'm Rajat and...
+  
+<span class='banner'>This is a Terminal!</span>                                                                
+                                                                                                                
+I love Linux and so should you XD,
+Why?
+Cause whatever you want is just a command away...!
+TYPE HELP OR TYPE RESUME TO VIEW MY <a class="text-light-green dark:text-dark-green underline" href="${config.repo}" target="_blank">resume</a>.
+See my <a class="text-light-yellow dark:text-dark-blue underline" href="/projects">PROJECTS</a>.
 
 `;
 };
