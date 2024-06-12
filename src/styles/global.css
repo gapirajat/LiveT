@@ -3,10 +3,17 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Hack';
+  font-family: 'Hack1';
   src: url(/assets/fonts/Hack-NF.ttf);
   display: swap;
 }
+
+@font-face {
+  font-family: 'Hack';
+  src: url(/assets/fonts/Silkscreen-Regular.ttf);
+  display: swap;
+}
+
 
 * {
   font-family: 'Hack', monospace;
@@ -39,3 +46,9 @@ div#__next > div {
 ::-webkit-scrollbar-thumb:hover {
   background: #ff8037;
 }
+
+.banner {
+  font-size: 6rem;
+  font-family: 'Hack1';
+}
+

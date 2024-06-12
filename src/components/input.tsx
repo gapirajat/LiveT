@@ -83,7 +83,6 @@ export const Input = ({
       <label htmlFor="prompt" className="flex-shrink">
         <Ps1 />
       </label>
-
       <input
         ref={inputRef}
         id="prompt"
