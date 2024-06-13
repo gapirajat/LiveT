@@ -17,15 +17,24 @@
 
 * {
   font-family: 'Hack', monospace;
+  box-sizing: border-box
 }
 
+
 html,
-body,
-body > div:first-child,
-div#__next,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+body > div:first-child, 
+div#__next {
+  height: 100%;
+  overflow: hidden;
+
+}
+
 div#__next > div {
   height: 100%;
-  overflow: auto;
 }
 
 ::-webkit-scrollbar {
@@ -68,8 +77,30 @@ div#__next > div {
   font-size: 6rem;
   font-family: 'Hack1';
   word-spacing: -10px;
-  letter-spacing: -3px;
+  letter-spacing: -10px;
 }
 
+/* * {
+  border: 1px solid black !important;
+} */
+/* #image:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 99% 96%, 0% 100%);
+}
+#image:hover+img {
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 96% 86%, 0% 100%);
+}
+
+#gear {
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 88% 89%, 0% 100%);
+}
+#gear:hover {
+  clip-path: polygon(100% 100%, 100% 0, 100% 40%, 83% 82%, 0% 100%);
+  
+}
+*/
+#parent:hover > #image {
+  transition: clip-path 0.5s ease-in-out;
+
+} 
 
 
