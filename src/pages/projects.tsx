@@ -16,7 +16,6 @@ const Home = () => {
     }
   };
   const [click, setclick] = useState(0);
-  console.log(click);
 
   return (
     <>
