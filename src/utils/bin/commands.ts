@@ -148,7 +148,7 @@ Hello there! I'm Rajat and...
 I love Linux and so should you XD,
 Why?
 Cause whatever you want is just a command away...!
-TYPE HELP OR TYPE RESUME TO VIEW MY <a class="text-light-green dark:text-dark-green underline" href="${config.repo}" target="_blank">resume</a>.
+TYPE HELP OR TYPE RESUME TO VIEW MY <a class="text-light-green dark:text-dark-green underline" href="${config.resume_url}" target="_blank">resume</a>.
 See my <a class="text-light-yellow dark:text-dark-blue underline" href="/projects">PROJECTS</a>.
 
 `;
