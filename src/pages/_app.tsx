@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/global.css';
 import Head from 'next/head';
 import { useEffect } from 'react';
-import TagManager from 'react-gtm-module';
+// import TagManager from 'react-gtm-module';
 
 
 // const App = ({ Component, pageProps }) => {
@@ -51,12 +51,13 @@ function MyApp({ Component, pageProps }) {
 
     inputRef.current?.focus();
   };
-  useEffect(() => {
-      TagManager.initialize({ gtmId: 'G-ZEEQ8E811Q' });
-  }, []);
+  // useEffect(() => {
+  //     TagManager.initialize({ gtmId: 'G-ZEEQ8E811Q' });
+  // }, []);
   return (
     <>   
       <Head>
+      
         
         <meta
           name="viewport"

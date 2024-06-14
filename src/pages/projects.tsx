@@ -58,7 +58,11 @@ const Home = () => {
                     className={`absolute h-fit mr-[5%] w-full transition-all z-20 text-right my-auto `}
                     // onClick={() => setclick(0)}
                   >
-                    hi
+                    client: epsitek
+                    <br />
+                    react 
+                    <br />
+                    2024
                   </div>
                 )}
                 <img
