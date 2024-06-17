@@ -2,6 +2,8 @@ import React from 'react';
 import '../styles/global.css';
 import Head from 'next/head';
 import { useEffect } from 'react';
+import { GoogleTagManager } from '@next/third-parties/google'
+
 // import TagManager from 'react-gtm-module';
 
 
@@ -66,8 +68,9 @@ function MyApp({ Component, pageProps }) {
           maximum-scale="1"
         />
           <title>Index page title</title>
+          
       </Head>
-
+      <GoogleTagManager gtmId="GTM-WJPTCR3F" />
       <div
         className="text-light-foreground dark:text-dark-foreground min-w-max text-xs md:min-w-full md:text-base h-full"
         onClick={onClickAnywhere}
