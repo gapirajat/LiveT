@@ -71,7 +71,7 @@ function MyApp({ Component, pageProps }) {
           <title>Index page title</title>
           
       </Head>
-      <GoogleAnalytics gaId='G-WYPPX6R49M' />
+      <GoogleAnalytics gaId='G-P0YC1X8P4H' />
       <div
         className="text-light-foreground dark:text-dark-foreground min-w-max text-xs md:min-w-full md:text-base h-full"
         onClick={onClickAnywhere}
