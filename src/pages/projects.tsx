@@ -8,27 +8,31 @@ import { useEffect, useState } from 'react';
 const Home = () => {
   console.log("first")
   const route = useRouter();
-  const [state, setState] = useState(0);
   const [click, setclick] = useState(0);
   useEffect(() => {
     function handleKeyDown(e) {
       if (e.keyCode == 38){//up
         setclick(prevState=>{ 
-          console.log(prevState)
-          const temp = Math.abs(prevState -1) % 2
+          const temp = Math.abs(prevState -1) % 2;
+          console.log(temp,"up")
           return temp});
       }
-      else if (e.keyCode == 40) {
-        setclick(prevState=>(prevState + 1) % 2);
+      else if (e.keyCode == 40) {//down
+        setclick(prevState=>{
+          const temp = (prevState + 1) % 2;
+          console.log(temp,"down")
+          return temp
+        })
         console.log(click)
       }
       else if(e.keyCode == 13) {
         console.log(click);
-        if (click == 1) {
-          // console.log(first)
+        if (click == 0) {
+          console.log(click,"0")
           route.push('/projects-frontend')
         }
-        else {
+        if (click == 1) {
+          console.log(click, "1")
           route.push('/other')
         }
       }
@@ -40,7 +44,7 @@ const Home = () => {
     return function cleanup() {
       document.removeEventListener('keydown', handleKeyDown);
     }
-  }, []);
+  }, [click]);
 
   return (
     <>
