@@ -109,7 +109,7 @@ const Home = () => {
                     clipPath: change(2),
                     transition: 'clip-path 0.5s ease-in-out',
                   }}
-                  onClick={() => (click == 1 ? setclick(0) : setclick(2))}
+                  onClick={() => (click == 2 ? setclick(0) : setclick(2))}
                 ></video>
                 {click == 2 && (
                   <div
@@ -213,7 +213,7 @@ const Home = () => {
                     clipPath: change(4),
                     transition: 'clip-path 0.5s ease-in-out',
                   }}
-                  onClick={() => (click == 1 ? setclick(0) : setclick(4))}
+                  onClick={() => (click == 4 ? setclick(0) : setclick(4))}
                 ></video>
                 {click == 4 && (
                   <div
@@ -245,7 +245,56 @@ const Home = () => {
                 />
               </div>
             </div>
-
+            <div className="flex justify-center items-center transition-all duration-700 overflow-hidden w-1/3 hover:w-[2000%] h-full relative p-8 border-2 border-light-yellow dark:border-dark-yellow">
+              <div
+                id="parent"
+                className="relative h-full w-full flex justify-center items-center"
+                onMouseEnter={() => setState(-5)}
+                onMouseLeave={() => setState(0)}
+              >
+                <video
+                  id="image"
+                  className="object-cover w-full h-full z-10 transition-all"
+                  src="rutambhara.mp4"
+                  loop
+                  autoPlay
+                  muted
+                  style={{
+                    clipPath: change(5),
+                    transition: 'clip-path 0.5s ease-in-out',
+                  }}
+                  onClick={() => (click == 5 ? setclick(0) : setclick(5))}
+                ></video>
+                {click == 5 && (
+                  <div
+                    id="gear"
+                    className={`absolute h-fit mr-[5%] w-full transition-all z-20 text-right my-auto `}
+                    // onClick={() => setclick(0)}
+                  >
+                    client: product designer
+                    <br />
+                    nextjs
+                    <br />
+                    2024
+                    <br />
+                    <p className='animate-pulse cursor-pointer' onClick={()=>router.push('https://www.rutambharayadav.com')}>Live</p>
+                  </div>
+                )}
+                <img
+                  id="gear"
+                  className="absolute h-full w-full bottom-0  right-0 transition-all opacity-15 hover:opacity-80 hover:cursor-pointer filter hue-rotate-[180deg]"
+                  src="gear.gif"
+                  alt=""
+                  style={{
+                    clipPath:
+                      'polygon(100% 100%, 100% 0, 100% 40%, 99% 82%, 0% 100%)',
+                  }}
+                  onClick={()=>router.push('https://github.com/gapirajat/RY')}
+                  onMouseEnter={() => setState(5)}
+                  onMouseLeave={() => setState(0)}
+                />
+              </div>
+            </div>
           </div>
 
 
