@@ -49,7 +49,7 @@ const Home = () => {
               >
                 <video
                   id="image"
-                  className="object-cover w-full h-full z-10 transition-all"
+                  className="cursor-pointer object-cover w-full h-full z-10 transition-all"
                   src="vnirmit.mp4"
                   loop
                   autoPlay
@@ -100,7 +100,7 @@ const Home = () => {
               >
                 <video
                   id="image"
-                  className="object-cover w-full h-full z-10 transition-all"
+                  className="cursor-pointer object-cover w-full h-full z-10 transition-all"
                   src="gdi.mp4"
                   loop
                   autoPlay
@@ -151,7 +151,7 @@ const Home = () => {
                 
                 <video
                   id="image"
-                  className="object-cover w-full h-full z-10 transition-all"
+                  className="cursor-pointer object-cover w-full h-full z-10 transition-all"
                   src="push2.mp4"
                   loop
                   autoPlay
@@ -204,7 +204,7 @@ const Home = () => {
               >
                 <video
                   id="image"
-                  className="object-cover w-full h-full z-10 transition-all"
+                  className="cursor-pointer object-cover w-full h-full z-10 transition-all"
                   src="ep2.mp4"
                   loop
                   autoPlay
@@ -254,7 +254,7 @@ const Home = () => {
               >
                 <video
                   id="image"
-                  className="object-cover w-full h-full z-10 transition-all"
+                  className="cursor-pointer object-cover w-full h-full z-10 transition-all"
                   src="rutambhara.mp4"
                   loop
                   autoPlay
