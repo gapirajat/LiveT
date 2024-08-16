@@ -1,9 +1,9 @@
 // pages/index.tsx
 
 import Head from 'next/head';
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
-
 
 
 const Home = () => {
@@ -76,7 +76,7 @@ const Home = () => {
 
                   </div>
                 )}
-                <img
+                <Image
                   id="gear"
                   className="absolute h-full w-full bottom-0  right-0 transition-all opacity-15 hover:opacity-80 hover:cursor-pointer filter hue-rotate-[180deg]"
                   src="gear.gif"
@@ -126,7 +126,7 @@ const Home = () => {
                     <p className='animate-pulse cursor-pointer' onClick={()=>router.push('https://green-drive-india.vercel.app/')}>Live</p>
                   </div>
                 )}
-                <img
+                <Image
                   id="gear"
                   className="absolute h-full w-full bottom-0  right-0 transition-all opacity-15 hover:opacity-80 hover:cursor-pointer filter hue-rotate-[180deg]"
                   src="gear.gif"
@@ -177,7 +177,7 @@ const Home = () => {
                     <p className='animate-pulse cursor-pointer' onClick={()=>router.push('https://www.epsitektechnologies.in')}>Live</p>
                   </div>
                 )}
-                <img
+                <Image
                   id="gear"
                   className="absolute h-full w-full bottom-0  right-0 transition-all opacity-15 hover:opacity-80 hover:cursor-pointer filter hue-rotate-[180deg]"
                   src="gear.gif"
@@ -230,7 +230,7 @@ const Home = () => {
                     <p className='animate-pulse cursor-pointer' onClick={()=>router.push('https://www.epsitektechnologies.in')}>Live</p>
                   </div>
                 )}
-                <img
+                <Image
                   id="gear"
                   className="absolute h-full w-full bottom-0  right-0 transition-all opacity-15 hover:opacity-80 hover:cursor-pointer filter hue-rotate-[180deg]"
                   src="gear.gif"
@@ -280,7 +280,7 @@ const Home = () => {
                     <p className='animate-pulse cursor-pointer' onClick={()=>router.push('https://www.rutambharayadav.com')}>Live</p>
                   </div>
                 )}
-                <img
+                <Image
                   id="gear"
                   className="absolute h-full w-full bottom-0  right-0 transition-all opacity-15 hover:opacity-80 hover:cursor-pointer filter hue-rotate-[180deg]"
                   src="gear.gif"
