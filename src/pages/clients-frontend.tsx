@@ -44,57 +44,6 @@ const Home = () => {
               <div
                 id="parent"
                 className="relative h-full w-full flex justify-center items-center"
-                onMouseEnter={() => setState(-1)}
-                onMouseLeave={() => setState(0)}
-              >
-                <video
-                  id="image"
-                  className="cursor-pointer object-cover w-full h-full z-10 transition-all"
-                  src="vnirmit.mp4"
-                  loop
-                  autoPlay
-                  muted
-                  style={{
-                    clipPath: change(1),
-                    transition: 'clip-path 0.5s ease-in-out',
-                  }}
-                  onClick={() => (click == 1 ? setclick(0) : setclick(1))}
-                ></video>
-                {click == 1 && (
-                  <div
-                    id="gear"
-                    className={`absolute h-fit mr-[5%] w-full transition-all z-20 text-right my-auto `}
-                    // onClick={() => setclick(0)}
-                  >
-                    client: vaanar (studio)
-                    <br />
-                    jquery 
-                    <br />
-                    2024
-                    <br />
-                    <p className='animate-pulse cursor-pointer' onClick={()=>router.push('https://www.vaanarnirmit.com/')}>Live</p>
-
-                  </div>
-                )}
-                <img
-                  id="gear"
-                  className="absolute h-full w-full bottom-0  right-0 transition-all opacity-15 hover:opacity-80 hover:cursor-pointer filter hue-rotate-[180deg]"
-                  src="gear.gif"
-                  alt=""
-                  style={{
-                    clipPath:
-                      'polygon(100% 100%, 100% 0, 100% 40%, 99% 82%, 0% 100%)',
-                  }}
-                  onClick={()=>router.push('https://github.com/gapirajat/vaanar')}
-                  onMouseEnter={() => setState(1)}
-                  onMouseLeave={() => setState(0)}
-                />
-              </div>
-            </div>
-            <div className="flex justify-center items-center transition-all duration-700 overflow-hidden w-1/3 hover:w-[2000%] h-full relative p-8 border-2 border-light-yellow dark:border-dark-yellow">
-              <div
-                id="parent"
-                className="relative h-full w-full flex justify-center items-center"
                 onMouseEnter={() => setState(-2)}
                 onMouseLeave={() => setState(0)}
               >
@@ -188,6 +137,57 @@ const Home = () => {
                   }}
                   onClick={()=>router.push('https://github.com/gapirajat/Jobwork-portal')}
                   onMouseEnter={() => setState(3)}
+                  onMouseLeave={() => setState(0)}
+                />
+              </div>
+            </div>
+            <div className="flex justify-center items-center transition-all duration-700 overflow-hidden w-1/3 hover:w-[2000%] h-full relative p-8 border-2 border-light-yellow dark:border-dark-yellow">
+              <div
+                id="parent"
+                className="relative h-full w-full flex justify-center items-center"
+                onMouseEnter={() => setState(-1)}
+                onMouseLeave={() => setState(0)}
+              >
+                <video
+                  id="image"
+                  className="cursor-pointer object-cover w-full h-full z-10 transition-all"
+                  src="vnirmit.mp4"
+                  loop
+                  autoPlay
+                  muted
+                  style={{
+                    clipPath: change(1),
+                    transition: 'clip-path 0.5s ease-in-out',
+                  }}
+                  onClick={() => (click == 1 ? setclick(0) : setclick(1))}
+                ></video>
+                {click == 1 && (
+                  <div
+                    id="gear"
+                    className={`absolute h-fit mr-[5%] w-full transition-all z-20 text-right my-auto `}
+                    // onClick={() => setclick(0)}
+                  >
+                    client: vaanar (studio)
+                    <br />
+                    jquery 
+                    <br />
+                    2024
+                    <br />
+                    <p className='animate-pulse cursor-pointer' onClick={()=>router.push('https://www.vaanarnirmit.com/')}>Live</p>
+
+                  </div>
+                )}
+                <img
+                  id="gear"
+                  className="absolute h-full w-full bottom-0  right-0 transition-all opacity-15 hover:opacity-80 hover:cursor-pointer filter hue-rotate-[180deg]"
+                  src="gear.gif"
+                  alt=""
+                  style={{
+                    clipPath:
+                      'polygon(100% 100%, 100% 0, 100% 40%, 99% 82%, 0% 100%)',
+                  }}
+                  onClick={()=>router.push('https://github.com/gapirajat/vaanar')}
+                  onMouseEnter={() => setState(1)}
                   onMouseLeave={() => setState(0)}
                 />
               </div>

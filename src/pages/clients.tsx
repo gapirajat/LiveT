@@ -29,7 +29,7 @@ const Home = () => {
         console.log(click);
         if (click == 0) {
           console.log(click,"0")
-          route.push('/projects-frontend')
+          route.push('/clients-frontend')
         }
         if (click == 1) {
           console.log(click, "1")
