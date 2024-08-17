@@ -32,7 +32,7 @@ const Home = () => {
         />
       </Head>
       <div className="h-full p-8 border-2 border-light-yellow dark:border-dark-yellow flex flex-col overflow-auto">
-        <h1 className='self-center text-lg'> Projects </h1>
+        <h1 className='self-center text-lg'> Client Projects </h1>
         <br />
         <h1 className='self-center'> React, Next JS, JQuery and Animations </h1>
         {/* margin to add content */}
