@@ -62,7 +62,7 @@ const Home = () => {
 
 
           <div tabIndex={-1} className="h-fit p-2 border-2 border-light-yellow dark:border-dark-yellow m-auto flex flex-col overflow-visible w-[25%] relative mt-[25%] pt-4">
-        <h1 className='text-lg bg-dark-background absolute w-fit p-2 -top-5 right-[0px] mr-auto ml-auto left-[0px] flex flex-col'> Clients </h1>
+        <h1 className='text-lg bg-light-background dark:bg-dark-background absolute w-fit p-2 -top-5 right-[0px] mr-auto ml-auto left-[0px] flex flex-col'> Clients </h1>
         <li  className='w-full list-none'>{click==0 && '>'}<Link href="/clients-frontend" onMouseEnter={()=>setclick(0)}>Frontend Clients</Link></li>
         <li  className='w-full list-none'>{click==1 && '>'}<Link href="/clients-fullstack" onMouseEnter={()=>setclick(1)}>Fullstack Clients</Link></li>
         <li className='w-full list-none'>{click==2 && '>'}<Link href="/other" onMouseEnter={()=>setclick(2)}>Other projects</Link></li>
