@@ -5,7 +5,8 @@ const TermsandCondition = () => {
     <div className="h-full p-8 border-2 border-light-yellow dark:border-dark-yellow flex flex-col overflow-auto">
         <h1 className="text-xl">Terms and Conditions</h1>
        Last updated on 22-12-2024 01:24:23
-       <br /> These Terms and
+       <br />
+        These Terms and
       Conditions, along with privacy policy or other terms (“Terms”) constitute
       a binding agreement by and between RAJAT RAHUL SHINDE, ( “Website Owner”
       or “we” or “us” or “our”) and you (“you” or “your”) and relate to your use
